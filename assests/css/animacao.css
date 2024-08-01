@@ -1,0 +1,85 @@
+/*                  Eu sou                                    */
+
+
+.wrapper{
+    display: flex;
+    overflow: hidden;
+    min-width: 500px;
+}
+.textos-dinamicos{
+    height: 55px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.textos-dinamicos li {
+    top: 0;
+    animation: slide 6s steps(3) infinite;
+    font-size: 40px;/* CASO FOR MUDAR A FONT 
+    TEM QUE MUDAR O " top:-175px; DO @KEYFRAMES
+      E O height:60px DO .textos-dinamicos "*/
+}
+
+
+@keyframes slide {
+     100%{
+        top: -180px/* CASO FOR MUDAR A FONT É PRA MUDAR AQUI TEMBEM*/
+     }
+
+}
+
+.textos-dinamicos li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+   /*background-color: yellow;*/
+   
+   animation: typing 2s steps(15) infinite;
+
+}
+
+
+
+
+.teste{
+   animation-name:  opcing;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes opcing {
+    0%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0.5;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+/*                fim do   Eu sou                                    */
+
+
+
+
+
+/* animação do scrool */
+
+.init-hidden{
+    opacity: 0;
+    transition:opacity 1s linear;
+}
+
+.init-hidden-off{
+    opacity: 1;
+}
+
+/* fim da animação  scroll*/
