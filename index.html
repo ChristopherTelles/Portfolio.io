@@ -77,28 +77,7 @@
     <footer class="rp init-hidden">
         <div class="rp-text container">Copyright ©2021 All rights reserved | This website was made with by <a href="">Christopher Teles</a>.</div>
     </footer>
-      <!-- animação scrool OBS: não consegui cololocar na pasta js pq está dando erro  -->
-    <script>
-        const observer = new IntersectionObserver(entries => {
-           console.log(entries)
 
-           Array.from(entries).forEach(entry =>{
-                    if(entry.intersectionRatio >=1){
-                       entry.target.classList.add('init-hidden-off')
-                }
-            })
-           
-        }, {
-            threshold: 1
-        })
-        Array.from(document.querySelectorAll('.init-hidden')).forEach(element =>{
-            observer.observe(element)
-        })
-        
-
-    </script>
-    <!-- fim da animação scrool -->
-
-    
+    <script src="assests/js/scrroll.js"></script>
 </body>
 </html>

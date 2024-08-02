@@ -20,7 +20,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 500px;
+    min-height: 400px;
     background-attachment: fixed;
     padding-top: 15px;
   }
@@ -107,16 +107,13 @@ body {
 
 
   .wrapper{
-    /* background-color: blanchedalmond;*/
-     height: 150px;
-     display: flex;
      justify-content: center;
-     text-align: center;
- 
+     align-items: center;
  }
  .textos-estatico{
      font-size: 40px;
      color: #ffffff;
+     padding-left: 8vw;
  }
  .textos-dinamicos{
      /*background-color: aqua;*/
@@ -130,12 +127,10 @@ body {
  }
 
  .EuSou{
-    width: 89%;
-    height: 400px;
+    height: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 130px;
 }
 
   /*                 fim do  Eu sou                                    */
