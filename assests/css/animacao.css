@@ -4,7 +4,7 @@
 .wrapper{
     display: flex;
     overflow: hidden;
-    width: 45vw;
+    width: 55vw;
 }
 .textos-dinamicos{
     height: 55px;
