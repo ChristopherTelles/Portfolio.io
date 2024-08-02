@@ -85,7 +85,6 @@ body {
   }
   .texte{
     font-size: 25px;
-    display: flex;
   }
   .texteSet{
     justify-content: center;
