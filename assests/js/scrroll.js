@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Seleciona o container que contém os blocos do carousel
             const slider = document.querySelector('.todos-blocos');
             // Obtém a largura visível do carousel (viewport)
-            const viewportWidth = document.querySelector('.op-habilidades').offsetWidth;
+            const viewportWidth = document.querySelector('.op-projeto').offsetWidth;
 
             // Define as posições específicas para onde o carousel deve pular
             const positions = [0, -840, -1665];
