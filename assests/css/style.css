@@ -10,7 +10,7 @@ body {
 }
 .linha {
     width: 100%;
-    height: 3px;
+    height: 7px;
     background-color: #0048ce;
 }
 
@@ -132,7 +132,7 @@ body {
     align-items: center;
 }
 
-  /*                 fim do  Eu sou                                    */
+  /*                     HABILIDADES                        */
 
   
   .hab{
@@ -161,12 +161,115 @@ body {
 
   }
 
-
-.text-wrapper{
-  width: 100%;
-  height: 200px;
-  background-color: rgb(241, 7, 7);
+  .op-habilidades{
+    /* background-color: rgb(241, 7, 7); */
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    height: 25vw;
+  }
+  .selection-blocos{
+    overflow: hidden;
+  }
+  .todos-blocos {
+    display: flex;
+    flex-direction: row;
+    width: 150vw;
+    height: 285px;
+    transition: transform 0.5s ease-in-out;
 }
+
+.inf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inf{
+  width: 29vw;
+  height: 20vw;
+  font-size: 0;
+
+}
+.inf:hover {
+  color: #ffffff;
+  font-size: 15px;
+  width: 29vw;
+  height: 20vw;
+  background-color: #0e0c0cf6;
+  display: flex;
+  flex-direction: column;
+}
+
+.blocos-hab {
+  background-image: url(../img/awax-projeto.png);
+  width: 65vw;
+  height: 20vw;
+  margin: 10px; /* Espaçamento entre os blocos */
+  background-size: cover; /* Garantir que a imagem cubra completamente o bloco */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.blocos-hab2{
+  background-image: url(../img/fundo.png);
+  border: black 1px solid;
+}
+.blocos-hab3{
+  background-image: url(../img/starbucks-projeto.png);
+  border: black 1px solid;
+}
+.blocos-hab4{
+  background-image: url(../img/imc-projeto.png);
+  border: black 1px solid;
+}
+
+.blocos-hab5{
+  background-image: url(../img/portifolio-2-projeto.png);
+  border: black 1px solid;
+}
+
+
+.wrapper-hab {
+  justify-content: center;
+    display: flex;
+    opacity: 1;
+    align-items: center;
+}
+
+  .seta{
+    width: 5vw;
+    height: 5vw;
+
+    /* background-color: salmon; */
+  }
+  .seta-esquerda{
+    cursor: pointer;
+    background-image: url(../icon/seta-esquerda.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  .seta-direita{
+    cursor: pointer;
+    background-image: url(../icon/seta-direita.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+
+  } 
+
+
+
+
+
+
+
+
+/*              roda pé              */
 
 .rp {
   display: flex;
